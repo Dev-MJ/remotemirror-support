@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RemoteMirror 지원</title>
+<style>
+:root{--bg:#fff;--fg:#1d1d1f;--mut:#6e6e73;--ac:#0a64d8;--bd:#d9d9de}
+@media(prefers-color-scheme:dark){:root{--bg:#1c1c1e;--fg:#f2f2f7;--mut:#a1a1a6;--ac:#6cb0ff;--bd:#3a3a3c}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",sans-serif}
+main{max-width:720px;margin:0 auto;padding:24px 16px 48px}
+h1{font-size:1.7rem;margin:.4em 0}h2{font-size:1.2rem;margin:1.8em 0 .4em;padding-top:.6em;border-top:1px solid var(--bd)}
+a{color:var(--ac)}li{margin:.3em 0}.m{color:var(--mut);font-size:.9rem}
+</style>
+</head><body><main>
+<h1>RemoteMirror 지원</h1>
+<p>RemoteMirror는 iPhone/iPad에서 내 Mac의 화면을 보고 제어하는 앱입니다. 터치를 마우스처럼 쓸 수 있고, 실시간 한글 입력을 포함한 키보드 입력도 지원합니다. iPhone/iPad와 Mac 양쪽에 RemoteMirror 앱을 설치하세요. Mac 앱이 호스트 역할을 하며, App Store에서 같은 제품으로 제공됩니다.</p>
+
+<h2>요구 사항</h2>
+<ul><li>iOS/iPadOS 26 이상, macOS 26 이상</li><li>처음 페어링할 때는 두 기기가 같은 Wi‑Fi 네트워크에 있어야 합니다.</li></ul>
+
+<h2>시작하기</h2>
+<ol>
+<li>Mac에서 RemoteMirror를 열고, 요청이 나오면 '화면 기록'과 '손쉬운 사용' 권한을 허용합니다. 화면을 보여 주고 마우스·키보드 입력을 전달하는 데 필요합니다.</li>
+<li>Mac에서 '기기 추가'를 선택합니다.</li>
+<li>iPhone/iPad의 목록에서 내 Mac을 고르고 표시된 확인 코드가 서로 같은지 확인합니다(QR 코드 스캔도 가능). 그다음 Mac에서 승인합니다.</li>
+<li>iPhone/iPad에서 Mac을 눌러 연결합니다.</li>
+</ol>
+
+<h2>집 밖에서 접속하기 (선택)</h2>
+<ul>
+<li>Mac에서 '원격 접속 허용'을 켭니다.</li>
+<li>공유기가 NAT-PMP/PCP를 지원하면 포트가 자동으로 열립니다. 지원하지 않으면 공유기에서 직접 포트 포워딩을 설정해야 합니다.</li>
+<li>또는 선택 기능인 릴레이 방식(Tailcat)을 두 앱 모두에서 직접 선택해 사용할 수 있습니다.</li>
+</ul>
+
+<h2>구매 안내</h2>
+<p>앱은 무료로 내려받으며 3일 무료 체험이 제공됩니다. 이후 일회성 인앱 구매로 iPhone/iPad의 전체 기능이 열립니다. Mac 호스트 앱은 무료입니다. 앱에서 '구매 복원'을 눌러 이전 구매를 복원할 수 있습니다.</p>
+
+<h2>자주 묻는 질문</h2>
+<ul>
+<li><b>목록에 Mac이 보이지 않아요.</b> 같은 Wi‑Fi에 연결돼 있는지, Mac에서 RemoteMirror가 실행 중인지, iPhone/iPad에서 '로컬 네트워크' 권한이 허용돼 있는지 확인하세요.</li>
+<li><b>화면이 검게 나와요.</b> Mac의 '화면 기록' 권한을 확인하세요.</li>
+<li><b>마우스/키보드가 동작하지 않아요.</b> Mac의 '손쉬운 사용' 권한을 확인하세요.</li>
+<li><b>페어링이 실패해요.</b> Mac에서 30초 안에 승인해야 합니다. 다시 시도해 주세요.</li>
+</ul>
+
+<h2>문의 · 개인정보</h2>
+<p>문의는 <a href="https://github.com/Dev-MJ/remotemirror-support/issues">GitHub Issues</a>로 남겨 주세요. <a href="privacy.html">개인정보 처리방침</a></p>
+
+<h2>English</h2>
+<p>RemoteMirror lets you view and control your Mac's screen from iPhone/iPad, with touch as mouse and keyboard input including real-time Korean input. Install the app on both devices; the Mac app is the host.</p>
+<ul>
+<li>Requires iOS/iPadOS 26+ and macOS 26+. Use the same Wi‑Fi for first pairing.</li>
+<li>Setup: grant Screen Recording and Accessibility on the Mac, choose "Add device" on the Mac, pick the Mac on your iPhone/iPad, confirm the matching code (or scan the QR code), approve on the Mac within 30 seconds, then tap the Mac to connect.</li>
+<li>Remote access is optional: enable "Allow remote access" on the Mac (automatic port mapping needs NAT-PMP/PCP, otherwise forward a port manually), or explicitly choose the optional relay mode (Tailcat) in both apps.</li>
+<li>Free download with a 3-day trial, then a one-time in-app purchase unlocks full features on iPhone/iPad. The Mac host is free. Use Restore Purchases in the app.</li>
+<li>Support: <a href="https://github.com/Dev-MJ/remotemirror-support/issues">GitHub Issues</a>. <a href="privacy.html">Privacy Policy</a></li>
+</ul>
+<p class="m">© 2026 Dev.MJ</p>
+</main></body></html>
